@@ -25,15 +25,18 @@
         <![endif]-->
 
     <!-- Header -->
-    <header>
+    <header id="top">
+
         <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
             <button class="menu-icon" type="button" data-toggle></button>
             <div class="title-bar-title">Menu</div>
         </div>
 
+
+
         <div class="top-bar" id="example-menu">
             <div class="top-bar-left">
-                <ul class="dropdown menu" data-dropdown-menu>
+                <ul class="dropdown menu" id="menu" data-dropdown-menu>
                     <li class="menu-text">Emmet</li>
                     <li><a href="#syntaxe">Syntaxe</a></li>
                     <li><a href="#html">HTML</a></li>
@@ -41,13 +44,13 @@
                 </ul>
             </div>
         </div>
+
     </header>
     <!-- /Header -->
 
+    <section> <!--MAIN BLOCK -->
+
     <!-- ***************************SYNTAXE **********************************-->
-
-    <section class="container">
-
         <article id="syntaxe">
             <h2>Syntaxe</h2>
 
@@ -124,6 +127,8 @@
 
         </article>
 
+        <!-- END SYNTAX -->
+
 <!-- *************************** HTML **********************************-->
 
         <article class="HTML" id="html">
@@ -182,32 +187,73 @@
 
                 <div class="small-12 large-4 columns">
                     <div class="callout secondary" id="panel">
-                        <h3>Text: {} <small> a{click me}</small></h3>
+                        <h3>link</h3>
                     </div>
                     <div class="picture-wrap">
-                        <figure class="picture ptext">
-                        </figure>
+                        <figure class="picture plink">
                     </div>
                 </div>
 
-                <div class="small-12 large-4 columns">
+
+                <div class="small-12 large-4 columns hiddens-xs">
                     <div class="callout secondary" id="panel">
-                        <h3>Grouping: () <small> div>(article+bq*2)+p</small></h3>
-                    </div>
-                    <div class="picture-wrap">
-                        <figure class="picture pgroup">
+                        <h3>>/h3>
                     </div>
                 </div>
-            </div>
+
+              </div>
 
         </article>
 
+        <!-- End 2nd row // End HTML -->
+
+      <!-- ******************************CSS******************************** -->
+
+      <article class="CSS" id="css">
+        <h2>CSS</h2>
+
+          <!-- First row -->
+
+          <div class="row">
+
+              <div class="small-12 large-4 columns">
+                  <div class="callout secondary" id="panel">
+                      <h3>html:5</h3>
+                  </div>
+                  <div class="picture-wrap">
+                      <figure class="picture phtml">
+                      </figure>
+                  </div>
+              </div>
+
+              <div class="small-12 large-4 columns">
+                  <div class="callout secondary" id="panel">
+                      <h3>ol+ / ul+</h3>
+                  </div>
+                  <div class="picture-wrap">
+                      <figure class="picture  plist">
+                      </figure>
+                  </div>
+              </div>
+
+              <div class="small-12 large-4 columns">
+                  <div class="callout secondary" id="panel">
+                      <h3>Sémentique</h3>
+                  </div>
+                  <div class="picture-wrap">
+                      <figure class="picture psem">
+                      </figure>
+                  </div>
+              </div>
+          </div>
 
 
-        </article>
+
+          <a class="small expanded button" href="#top">Back to Top</a>
 
 
-    </section>
+
+    </section> <!-- End Main Block -->
 
 
 

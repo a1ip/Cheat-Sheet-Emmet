@@ -24,12 +24,25 @@ h3 small {
   font-weight:600;
 }
 
+.hiddens-xs {
+  display:none;
+}
+
 .picture {
   height: 13em;
   max-width: 100%;
   background-repeat: no-repeat;
   /*background-size: cover;*/
   margin: 1em 0 0;
+}
+
+/*Back to Top*/
+
+.button {
+  position:fixed;
+  margin-bottom: 0;
+  bottom: 0;
+  box-shadow: 0 -5px 5px -5px #333;
 }
 
 /*code color #337AB7 */
@@ -41,6 +54,10 @@ h3 small {
 .title-bar {                          /*Header color background and style **/
   background-color: #337AB7;
   box-shadow: 0 4px 6px -6px #222;
+}
+
+#menu a {
+  padding: .7rem .5rem;
 }
 
 /**************/
@@ -100,4 +117,13 @@ h3 small {
 
 .plist {
   background-image: url(../img/h-ol.png);
+}
+
+.pinp {
+  background-image: url(../img/h-input.png);
+}
+
+
+.plink {
+  background-image: url(../img/h-link.png);
 }
