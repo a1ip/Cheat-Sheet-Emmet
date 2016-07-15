@@ -1,0 +1,103 @@
+/*General Settings*/
+
+* {
+  font-size: 1em;
+  font-family: Verdana;
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+h2 {
+  color: #286192;
+  padding: 1.5em 0 0 1em;
+}
+
+h3 {
+  color: #337AB7;
+}
+
+h3 small {
+  color: #f64e3f;
+  font-weight:600;
+}
+
+.picture {
+  height: 13em;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  margin: 1em 0 0;
+}
+
+/*code color #337AB7 */
+
+/***********************/
+
+/*Header*/
+
+.title-bar {                          /*Header color background and style **/
+  background-color: #337AB7;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+/**************/
+
+/*Main Block*/
+
+.picture-wrap {
+  margin-top: -1em;
+  border: 1px solid lightgrey;
+}
+
+.callout {
+  margin-top: 1.3em;
+}
+
+/*Images*/
+
+/*Syntaxe*/
+
+/*row 1 */
+
+.pchild {
+  background-image: url(../img/s-child.png);
+}
+
+.pmult {
+  background-image: url(../img/s-mult.png);
+}
+
+.psibl {
+  background-image: url(../img/s-sibl.png);
+}
+
+/*row2*/
+
+.ptag {
+  background-image: url(../img/s-tag.png);
+}
+
+.ptext {
+  background-image: url(../img/s-text.png);
+}
+
+.pgroup{
+  background-image: url(../img/s-group.png);
+}
+
+/*HTML*/
+
+.phtml {
+  background-image: url(../img/h-html.png);
+}
+
+.psem {
+  background-image: url(../img/h-sem.png);
+}
+
+.plist {
+  background-image: url(../img/h-ol.png);
+}
