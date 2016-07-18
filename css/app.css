@@ -32,7 +32,6 @@ h3 small {
   height: 13em;
   max-width: 100%;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
   margin: 1em 0 0;
 }
 
@@ -107,6 +106,8 @@ h3 small {
 
 /*HTML*/
 
+/*row1*/
+
 .phtml {
   background-image: url(../img/h-html.png);
 }
@@ -119,6 +120,8 @@ h3 small {
   background-image: url(../img/h-ol.png);
 }
 
+/*row2*/
+
 .pinp {
   background-image: url(../img/h-input.png);
 }
@@ -126,4 +129,83 @@ h3 small {
 
 .plink {
   background-image: url(../img/h-link.png);
+}
+
+/*CSS*/
+
+/*row 1*/
+
+.pbord {
+  background-image: url(../img/c-border.png);
+}
+
+.pmargin{
+  background-image: url(../img/c-margin.png);
+}
+
+.ppos {
+  background-image: url(../img/c-position.png);
+}
+
+/********************************************/
+
+
+/*Footer*/
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+  text-align: center;
+  border: 1px solid #EBEBEB;
+  background-color: #EBEBEB;
+  color: #337AB7;
+}
+
+footer h3 {
+  padding-top: .5em;
+}
+
+/******************************************************************************/
+/******************************************************************************/
+/*****************************RESPONSIVE DESIGN********************************/
+/******************************************************************************/
+/******************************************************************************/
+
+
+/*TABLET*/
+
+@media screen and (min-width: 640px) {
+
+  .callout h3 {
+    font-size: 1.4em;
+  }
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 1022px) {
+
+  .callout h3 {
+    font-size: 1em;
+  }
+}
+
+/*Large and very large desktop*/
+
+@media screen and (min-width: 1280px) {
+
+  .callout h3 {
+    font-size: 1.2em;
+  }
+
+  #bar{
+    width: 100%;
+    margin: auto;
+    float:none;
+  }
+
+  #menu{
+    margin: 0 38%;
+  }
+
 }
